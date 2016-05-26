@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2D1A4CCE56443BE4DEE3656 /* libPods-WCLNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C661955D5B5DC03EC82A2EE0 /* libPods-WCLNews.a */; };
+		A91417B01CF6F73F00DF799C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A91417AF1CF6F73F00DF799C /* MainViewController.m */; };
 		A93E79D71CF5E5550072B7AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A93E79D61CF5E5550072B7AA /* main.m */; };
 		A93E79DA1CF5E5550072B7AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93E79D91CF5E5550072B7AA /* AppDelegate.m */; };
-		A93E79DD1CF5E5550072B7AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93E79DC1CF5E5550072B7AA /* ViewController.m */; };
 		A93E79E01CF5E5550072B7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93E79DE1CF5E5550072B7AA /* Main.storyboard */; };
 		A93E79E21CF5E5550072B7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A93E79E11CF5E5550072B7AA /* Assets.xcassets */; };
 		A93E79E51CF5E5550072B7AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93E79E31CF5E5550072B7AA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C81A46BE6215125C470DE18 /* Pods-WCLNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCLNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WCLNews/Pods-WCLNews.debug.xcconfig"; sourceTree = "<group>"; };
+		A91417AE1CF6F73F00DF799C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Controller/MainViewController.h; sourceTree = "<group>"; };
+		A91417AF1CF6F73F00DF799C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Controller/MainViewController.m; sourceTree = "<group>"; };
 		A93E79D21CF5E5550072B7AA /* WCLNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCLNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93E79D61CF5E5550072B7AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A93E79D81CF5E5550072B7AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A93E79D91CF5E5550072B7AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A93E79DB1CF5E5550072B7AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A93E79DC1CF5E5550072B7AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A93E79DF1CF5E5550072B7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A93E79E11CF5E5550072B7AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A93E79E41CF5E5550072B7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A93E79E61CF5E5550072B7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C661955D5B5DC03EC82A2EE0 /* libPods-WCLNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WCLNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8810A94AE18F2AEDBA672E6 /* Pods-WCLNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCLNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-WCLNews/Pods-WCLNews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D1A4CCE56443BE4DEE3656 /* libPods-WCLNews.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ACE98E36C054A60FA969164 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C81A46BE6215125C470DE18 /* Pods-WCLNews.debug.xcconfig */,
+				C8810A94AE18F2AEDBA672E6 /* Pods-WCLNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F424EDAE78B23CBC1A02261 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C661955D5B5DC03EC82A2EE0 /* libPods-WCLNews.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A91417AD1CF6F6FB00DF799C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A93E79D81CF5E5550072B7AA /* AppDelegate.h */,
+				A93E79D91CF5E5550072B7AA /* AppDelegate.m */,
+				A91417AE1CF6F73F00DF799C /* MainViewController.h */,
+				A91417AF1CF6F73F00DF799C /* MainViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		A93E79C91CF5E5550072B7AA = {
 			isa = PBXGroup;
 			children = (
 				A93E79D41CF5E5550072B7AA /* WCLNews */,
 				A93E79D31CF5E5550072B7AA /* Products */,
+				0ACE98E36C054A60FA969164 /* Pods */,
+				9F424EDAE78B23CBC1A02261 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +93,7 @@
 		A93E79D41CF5E5550072B7AA /* WCLNews */ = {
 			isa = PBXGroup;
 			children = (
-				A93E79D81CF5E5550072B7AA /* AppDelegate.h */,
-				A93E79D91CF5E5550072B7AA /* AppDelegate.m */,
-				A93E79DB1CF5E5550072B7AA /* ViewController.h */,
-				A93E79DC1CF5E5550072B7AA /* ViewController.m */,
+				A91417AD1CF6F6FB00DF799C /* Controller */,
 				A93E79DE1CF5E5550072B7AA /* Main.storyboard */,
 				A93E79E11CF5E5550072B7AA /* Assets.xcassets */,
 				A93E79E31CF5E5550072B7AA /* LaunchScreen.storyboard */,
@@ -86,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A93E79E91CF5E5550072B7AA /* Build configuration list for PBXNativeTarget "WCLNews" */;
 			buildPhases = (
+				F006E55C291CC0F8CF61134A /* Check Pods Manifest.lock */,
 				A93E79CE1CF5E5550072B7AA /* Sources */,
 				A93E79CF1CF5E5550072B7AA /* Frameworks */,
 				A93E79D01CF5E5550072B7AA /* Resources */,
+				9191798CCC64D41DE63F5B61 /* Embed Pods Frameworks */,
+				C2F1ED90F563C0F33A7672D4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,13 +179,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9191798CCC64D41DE63F5B61 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WCLNews/Pods-WCLNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2F1ED90F563C0F33A7672D4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WCLNews/Pods-WCLNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F006E55C291CC0F8CF61134A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A93E79CE1CF5E5550072B7AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A93E79DD1CF5E5550072B7AA /* ViewController.m in Sources */,
 				A93E79DA1CF5E5550072B7AA /* AppDelegate.m in Sources */,
+				A91417B01CF6F73F00DF799C /* MainViewController.m in Sources */,
 				A93E79D71CF5E5550072B7AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +344,7 @@
 		};
 		A93E79EA1CF5E5550072B7AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C81A46BE6215125C470DE18 /* Pods-WCLNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WCLNews/Info.plist;
@@ -272,6 +356,7 @@
 		};
 		A93E79EB1CF5E5550072B7AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8810A94AE18F2AEDBA672E6 /* Pods-WCLNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WCLNews/Info.plist;
@@ -300,6 +385,7 @@
 				A93E79EB1CF5E5550072B7AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
